@@ -7,7 +7,7 @@ int main()
  int q,r;
  q=amount_given/bill_amount;
  r=amount_given%bill_amount;
- printf("quotient is:%d",q);
+ printf("quotient is:%d\n",q);
  printf("remainder is:%d",r);
  return 0;
  }
