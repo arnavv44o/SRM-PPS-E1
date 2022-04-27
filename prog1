@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+ int amount_given;
+ int bill_amount;
+ scanf("%d %d",&amount_given,&bill_amount);
+ int q,r;
+ q=amount_given/bill_amount;
+ r=amount_given%bill_amount;
+ printf("quotient is:%d",q);
+ printf("remainder is:%d",r);
+ return 0;
+ }
